@@ -1,0 +1,12 @@
+target/*
+build/*
+misc.xml
+vcs.xml
+compiler.xml
+.idea/*
+*.xml
+*.iml
+*.log
+out/*
+*.hprof
+Reports

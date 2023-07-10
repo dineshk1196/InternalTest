@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/BDDJavaFramework-main.iml" filepath="$PROJECT_DIR$/.idea/BDDJavaFramework-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BDDJavaFramework-main/NDAutomationFramework.iml" filepath="$PROJECT_DIR$/BDDJavaFramework-main/NDAutomationFramework.iml" />
+    </modules>
+  </component>
+</project>

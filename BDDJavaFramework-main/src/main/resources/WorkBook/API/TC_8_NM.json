@@ -1,0 +1,378 @@
+{
+    "finalize": "True",
+    "policyholderLocator": "{{policyHolderLocator}}",
+
+    "productName": "MH_Homeowners",
+
+    "paymentScheduleName": "Mortgagee Bill",
+    "fieldValues": {
+        "association_discount": "No",
+        "application_intiation": "Internal Agent",
+        "insurance_score": "466",
+        "multi_policy_discount": "No",
+        "paperless_discount": "Yes"
+        
+        
+    },
+    "fieldGroups": [
+        {
+            "fieldName": "ad_insured",
+            "fieldValues": {
+                "ad_first_name": "John",
+                "ad_last_name": "Doe",
+                "additionalinsured_date_of_birth": "1995-01-01",
+                "relationship_to_policyholder": "Spouse"
+            }
+        },
+        {
+            "fieldName": "agency_information",
+            "fieldValues": {
+                "agency_id": "2341A05",
+                "agent_id": "4357P07",
+                "street_address": "978 University St. Roselle",
+                "lot_unit": "102",
+                "city": "Brooklyn",
+                "state": "NM",
+                "zip_code": "50080",
+                "country": "USA",
+                "agency_license": "A0332",
+              "agent_on_record": "James",
+                            "agency_contact_name": "John",
+                "agency_phone_number": "7796766767",
+                "email_address": "testnotifications@covertree.com"
+            }
+        },
+        {
+            "fieldName": "documents",
+            "fieldValues": {
+                "document_type": "Unit Photographs",
+                "uploaded_file": "{{mediaLocator}}"
+            }
+        },
+        
+        {
+            "fieldName": "policy_basic_info",
+            "fieldValues": {
+                "quote_inception_date": "2016-01-01",
+                "auto_policy_with_agency": "No",
+                "date_of_birth": "1993-01-01"
+            }
+        },
+        {
+            "fieldName": "prior_insurance_details",
+            "fieldValues": {
+                "prior_insurance": "Yes, I am thinking about switching carriers",
+                "prior_carrier_name": "Allstate"
+                
+            }
+        },
+        {
+            "fieldName": "adverse_action",
+            "fieldValues": {
+                "reason_code": "xyz",
+                "reason_description": "xyz"
+            }
+        },
+        {
+            "fieldName": "prior_claims",
+            "fieldValues": {
+                "category": "Fire/Smoke",
+                "claim_amount": 5000,
+                "claim_date": "2020-01-01",
+                "description_of_loss": "xyz",
+                "claim_cat": "Yes",
+                "claim_source": "User Declared",
+                "claim_number": "xyz"
+            }
+        },
+        {
+            "fieldName": "previous_address_policyholder",
+            "fieldValues": {
+                "previous_street_address_policyholder": "xyz",
+                "previous_lot_unit_policyholder": "xyz",
+                "previous_city_policyholder": "xyz",
+                "previous_state_policyholder": "NM",
+                              "previous_zip_code_policyholder": "48003",
+                "previous_country_policyholder": "USA"
+            }
+        },
+        {
+            "fieldName": "policy_level_suppl_uw",
+            "fieldValues": {
+                "conviction": "No",
+                "cancellation_renew": "No",
+                "animal_bite": "No"
+                
+            }
+        }
+    ],
+    "exposures": [
+        {
+            "exposureName": "Seasonal Occupied",
+                        "fieldGroups": [
+                {
+                    "fieldName": "unit_address",
+                    "fieldValues": {
+                        "street_address": "327 Northern Shores",
+                        "lot_unit": "",
+                        "city": "Holland",
+                        "state": "NM",
+                        "zip_code": "48160",
+                        "country": "USA",
+                        "county": "Monroe"
+                    }
+                },
+                 {
+                    "fieldName": "territory",
+                    "fieldValues": {
+                        "loc_code" : "1234",
+                        "lat": "42.0398534922124",
+                        "long": "-83.714054969114",
+                        "grid_id": "123",
+                        "territory_code_aop": "30",
+                        "territory_code_windhail": "30",
+                        "territory_code_earthquake": "30",
+                        "territory_code_hurricane": "30",
+                        "territory_code_wild_fire": "30",
+                        "territory_code_floods": "30",
+                        "uw_admitted": "No Concerns(N)"
+                    }
+                },
+               
+                {
+                    "fieldName": "unit_construction",
+                    "fieldValues": {
+                        "manufacturer_name": "Cappaert Mfg Housing",
+                        "home_type": "Triple wide",
+                        "model_year": "2003",
+                        "total_square_footage": "750",
+                        "roof_shape": "Flat",
+                        "roof_year_yyyy": "2003",
+                        "roof_condition": "Unknown",
+                        "home_fixtures": "A few extras",
+                        "home_hud_number": "12345",
+                        "roof_material": "Shingle - Architectural",
+                        "skirting_type": "Lattice"
+                    }
+                },
+            
+                 {
+                    "fieldName": "additional_interest",
+                    "fieldValues": {
+                        "additional_interest_id": 1234,
+                        "name": "abc",
+                        "street_address": "abcd",
+                        "lot_unit": "123",
+                        "country":"USA",
+                        "city": "HYD",
+                        "state": "NM",
+                        "zip_code": 34678,
+                        "type": "Property Manager/Park Owner",
+                        "officer_first_name": "Milan",
+                        "officer_last_name": "M",
+                        "officer_mail_address": "testnotifications@covertree.com",
+                        "account_number": "7654332"
+                    }
+                },
+                {
+                    "fieldName": "unit_level_suppl_uw",
+                    "fieldValues": {
+                        "unit_is_tied": "Yes",
+                        "secure_rails": "Yes",
+                        "unrepaired_damages": "No",
+                        "utility_services": "Yes",
+                        "property_with_fire_protection": "Yes",
+                        "thermo_static_control": "Yes",
+                        "source_of_heat": "No",
+
+                       
+                        "business_on_premises": "No",
+                        "daycare_on_premises": "No",
+                        "business_employees_on_premises": "No",
+                        "visitors_in_a_month": 4,
+                        
+                        "trampoline_liability": "No",
+                        "swimming_pool": "Yes",
+                        "diving_board": "No",
+                        "four_feet_fence": "Yes",
+                        "mortgage": "No",
+                        "wrought_iron":"Yes",
+                        "burglar_alarm":"No"
+                    }
+                },
+                {
+                    "fieldName": "inspections",
+                    "fieldValues": {
+                        "aerial": "Yes",
+                        "interior": "Yes",
+                        "exterior": "Yes"
+                    }
+                },
+                {
+                    "fieldName": "unit_details",
+                    "fieldValues": {
+                        "community_policy_discount": "No",
+                        "form": "Special",
+                        "personalized_plan_type": "Gold",
+                        "unit_id": "1234",
+                        "purchase_date": "I am currently in the buying process",
+                        "unit_location": "In a small manufactured home community (less than 25 units)",
+                        "acv": "80000",
+                        "rcv": "80000",
+                        
+                        "valuation_id": "41414"
+                    }
+                },
+                {
+                    "fieldName": "usage",
+                    "fieldValues": {
+                        "policy_usage": "Seasonal"
+                    }
+                }
+            ],
+            "perils": [
+                
+                {
+                    "name": "Earthquake Coverage",
+                    "fieldValues": {
+                        "earthquake_deductible":"20%"
+                    }
+                },
+                {
+                    "name": "Deductibles",
+                    "fieldValues": {
+                        "all_other_perils_deductible": "$5,000",
+                        "wind_hail_deductible": "$5,000"
+                    }
+                },
+                {
+                    "name": "Trampoline Liability Extension"
+                },
+                
+                {
+                    "name": "Coverage A - Dwelling",
+                    "fieldValues": {
+                        "manufactured_home_limit": "90000",
+                        "cov_a_settlement_option": "Replacement Cost"
+                    }
+                },
+                {
+                    "name": "Coverage B - Other Structures",
+                    "fieldValues": {
+                        "other_structures_limit": "90000",
+                        "cov_b_settlement_option": "Replacement Cost"
+                    }
+                },
+                {
+                    "name": "Coverage C - Personal Property",
+                    "fieldValues": {
+                        "unscheduled_personal_property_limit": "7000",
+                        "cov_c_settlement_option": "Replacement Cost"
+                    }
+                },
+                {
+                    "name": "Coverage D - Loss of Use",
+                    "fieldValues": {
+                        
+                        "loss_of_use_percentage": "10%"
+                    }
+                },
+                {
+                    "name": "Coverage E - Premises Liability",
+                    "fieldValues": {
+                        "premises_liability_limit": "$300,000"
+                    }
+                },
+                {
+                    "name": "Coverage F - Medical Payment to Others",
+                    "fieldValues": {
+                        "medical_payment_to_others_limit_per_person": "$2,000/$25,000"
+                    }
+                },
+                {
+                    "name": "Water Damage",
+                    "fieldValues": {
+                        "water_damage_reduced_limit": "25%"
+                    }
+                },
+                
+                
+                {
+                    "name": "Increased Debris Removal",
+                    "fieldValues": {
+                        "debris_removal_limit": "$10,000"
+                    }
+                },
+                {
+                    "name": "Enhanced Coverage"
+                },
+                
+                
+                {
+                    "name": "Inflation Guard",
+                    "fieldValues": {
+                        "inflation_guard": "3%"
+                    }
+                },
+                {
+                    "name": "Water Backup and Sump Overflow",
+                    "fieldValues": {
+                        "water_backup_and_sump_overflow_limit": "$25,000"
+                    }
+                },
+                {
+                    "name": "Damage to Property of Others",
+                    "fieldValues": {
+                        "damage_to_property_of_others": "$500"
+                    }
+                },
+                
+                {
+                    "name": "Fungi, Wet or Dry Rot, or Bacteria Property",
+                    "fieldValues": {
+                        "fungi_bacteria_property_limit": "$3,500"
+                    }
+                },
+                {
+                    "name": "Diving Board - Slide Liability Extension"
+                },
+                
+                {
+                    "name": "Golf Cart",
+                    "fieldValues": {
+                        "no_of_golf_carts": 3
+                    }
+                },
+               
+                {
+                    "name": "Loss Assessment",
+                    "fieldValues": {
+                        "loss_assessment_limit": "$5,000"
+                    }
+                },
+                
+                {
+                    "name": "Vacation Rental Coverage",
+                    "fieldValues":{
+                    "occasional_vacation_rental": "No"
+                    }
+                }
+            ]
+        },
+        {
+            "exposureName": "Policy Level Coverages",
+            "perils": [
+                {
+                    "name": "Identity Fraud Expense",
+                    "fieldValues": {
+                        "identity_fraud_limit": "$15,000"
+                    }
+                },               
+               
+                {
+                    "name":"Policy Minimum Premium Coverage"
+                }
+            ]
+        }
+    ]
+}

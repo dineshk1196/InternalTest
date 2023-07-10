@@ -1,0 +1,352 @@
+
+{
+    "finalize": "false",
+    "policyholderLocator": "ac7d2c10-0f68-4d13-84ba-a8fbff479cb7",
+    "productName": "MH_Homeowners",
+            "policyStartTimestamp": "1672549200000",
+            "policyEndTimestamp": "1704085200000",
+    "paymentScheduleName": "11-Pay",
+    "fieldValues": {
+        "association_discount": "No",
+        "application_intiation": "Direct to Consumer",
+        "insurance_score": "750",
+        "multi_policy_discount": "No",
+        "paperless_discount": "No"
+    },
+    "fieldGroups": [
+        {
+            "fieldName": "agency_information",
+            "fieldValues": {
+                "agency_id": "2341A05",
+                "agent_id": "4357P07",
+                "street_address": "978 University St. Roselle",
+                "lot_unit": "102",
+                "city": "Brooklyn",
+                "state": "TX",
+                "zip_code": "50080",
+                "country": "USA",
+                "agency_license": "A0332",
+                "agent_on_record": "James",
+                "agency_contact_name": "John",
+                "agency_phone_number": "7796766767",
+                "email_address": "johnsnow@gmail.com"
+            }
+        },
+        {
+            "fieldName": "documents",
+            "fieldValues": {
+                "document_type": "Unit Photographs",
+                "uploaded_file": "6c54e6cf-6006-4cc1-88ae-12edc17323da"
+            }
+        },
+        {
+            "fieldName": "policy_basic_info",
+            "fieldValues": {
+                "quote_inception_date": "2022-01-01",
+                "date_of_birth": "1992-06-01",
+                "auto_policy_with_agency": "No"
+            }
+        },
+        
+                {
+                        "fieldName": "prior_insurance_details",
+                        "fieldValues": {
+                            "prior_insurance": "Yes, I am thinking about switching carriers",
+                            "prior_carrier_name": "Allstate"
+
+                        }
+                    },
+                
+                                    {
+            "fieldName": "adverse_action",
+            "fieldValues": {
+                "reason_code": "xyz",
+                "reason_description": "xyz"
+            }
+        },
+        
+                                    {
+            "fieldName": "previous_address_policyholder",
+            "fieldValues": {
+                "previous_street_address_policyholder": "xyz",
+                "previous_lot_unit_policyholder": "xyz",
+                "previous_city_policyholder": "xyz",
+                "previous_state_policyholder": "MI",
+                "previous_zip_code_policyholder": "48003",
+                "previous_country_policyholder": "USA"
+            }
+        },
+        {
+            "fieldName": "policy_level_suppl_uw",
+            "fieldValues": {
+                "conviction": "No",
+                "cancellation_renew": "No",
+                "animal_bite": "No"
+            }
+        }
+    ],
+    "exposures": [
+        {
+            "exposureName": "Owner Occupied",
+            "fieldGroups": [
+                {
+                    "fieldName": "unit_address",
+                    "fieldValues": {
+                        "street_address": "0",
+                        "lot_unit": "",
+                        "city": "Anywhere",
+                        "state": "TX",
+                        "zip_code": "12345",
+                        "country": "USA",
+                        "county": "McLennan"
+                    }
+                },
+                {
+                    "fieldName": "territory",
+                    "fieldValues": {
+                        "loc_code": "0313309732",
+                        "lat": "31.3327508499833",
+                        "long": "-97.3228019058435",
+                        "grid_id": "0313309732",
+                        "distance_to_coast" : "0",
+                        "territory_code_aop": "161",
+                        "territory_code_windhail": "161",
+                        "territory_code_earthquake": "22",
+                        "territory_code_hurricane": "0.5584",
+                        "territory_code_wild_fire": "#N/A",
+                        "territory_code_floods": "#N/A",
+                        "uw_admitted": "No Concerns(N)"
+                    }
+                },
+                {
+                    "fieldName": "unit_construction",
+                    "fieldValues": {
+                        "manufacturer_name": "Cappaert Mfg Housing",
+                        "home_type": "Double wide",
+                        "model_year": "1984",
+                        "total_square_footage": "1500",
+                        "roof_shape": "Flat",
+                        "roof_year_yyyy": "2020",
+                        "roof_condition": "Unknown",
+                        "home_fixtures": "A few extras",
+                        
+                        "storm_mitigation_impactglass":"No",
+                        "storm_mitigation_shutters":"No",
+                        "roof_material": "Shingle - Composition (3-Tab)"
+                    }
+                },
+                {
+                    "fieldName": "unit_level_suppl_uw",
+                    "fieldValues": {
+                        "unit_is_tied": "Yes",
+
+                        "wrought_iron": "No",
+                        "burglar_alarm": "No",
+                        "secure_rails": "Yes",
+                        "unrepaired_damages": "No",
+                        "utility_services": "Yes",
+                        "property_with_fire_protection": "Yes",
+                        "thermo_static_control": "Yes",
+                        
+                "source_of_heat": "No",
+            
+                        "business_on_premises": "No",
+                        "daycare_on_premises": "No",
+                        "business_employees_on_premises": "No",
+                        "visitors_in_a_month": 4,
+                        "trampoline_liability": "No",
+                        "swimming_pool": "Yes",
+                        "diving_board": "No",
+                        "four_feet_fence": "Yes",
+                        "mortgage": "No"
+                    }
+                },
+                {
+                    "fieldName": "inspections",
+                    "fieldValues": {
+                        "aerial": "No",
+                        "interior": "No",
+                        "exterior": "No"
+                    }
+                },
+                {
+                    "fieldName": "unit_details",
+                    "fieldValues": {
+                        "community_policy_discount": "No",
+                        "form": "Comprehensive",
+                        "personalized_plan_type": "Gold",
+                        "unit_id": "1234",
+                        "purchase_date": "I am currently in the buying process",
+                        "unit_location": "In a small manufactured home community (less than 25 units)",
+                        "acv": "60000",
+                        "rcv": "60000",
+                        "valuation_id": "41414",
+                        "unusual_risk": "No",
+                        "park_name": "Not Listed"
+                    }
+                },
+                {
+                    "fieldName": "usage",
+                    "fieldValues": {
+                        "policy_usage": "Owner"
+                    }
+                }
+            ],
+            "perils": [
+                
+                {
+                    "name": "Coverage A - Dwelling",
+                    "fieldValues": {
+                        "manufactured_home_limit": "60000",
+                        "cov_a_settlement_option": "Full Repair Cost"
+                    }
+                },
+                
+                
+                
+                {
+                    "name": "Coverage C - Personal Property",
+                    "fieldValues": {
+                        "unscheduled_personal_property_limit": "18000",
+                        "cov_c_settlement_option": "Actual Cash Value"
+                    }
+                },
+                
+                
+                        {
+                    "name": "Coverage D - Loss of Use",
+                    "fieldValues": {
+                        "loss_of_use_percentage": "10%"
+                    }
+                },
+                
+
+                 
+                {
+                    "name": "Coverage E - Personal Liability",
+                    "fieldValues": {
+                        "personal_liability": "$300,000"
+                    }
+                },
+                
+                
+                
+                                {
+                                    "name": "Coverage F - Medical Payment to Others",
+                                    "fieldValues": {
+                                        "medical_payment_to_others_limit_per_person": "$500/$25,000"
+                                    }
+                                },
+
+                
+                
+                {
+                                    "name": "Damage to Property of Others",
+                                    "fieldValues": {
+                                        "damage_to_property_of_others": "$500"
+                                    }
+                                },
+                
+                
+                
+                
+                
+                {
+                                    "name": "Fungi, Wet or Dry Rot, or Bacteria Property",
+                                    "fieldValues": {
+                                        "fungi_bacteria_property_limit": "$3,500"
+                                    }
+                                },
+                
+                
+                
+                
+
+                
+                {
+                                    "name": "Increased Debris Removal",
+                                    "fieldValues": {
+                                        "debris_removal_limit": "$5,000"
+                                    }
+                                },
+                
+                
+                {
+                    "name": "Inflation Guard",
+                    "fieldValues": {
+                        "inflation_guard": "3%"
+                    }
+                },
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                {
+                                    "name": "Water Damage",
+                                    "fieldValues": {
+                                        "water_damage_reduced_limit": "Full Coverage"
+                                    }
+                                },
+                
+                
+                
+
+                
+
+                
+                
+                
+
+
+                {
+                    "name": "Deductibles",
+                    "fieldValues": {
+                        "all_other_perils_deductible": "$5,000",
+                        "wind_hail_deductible": "$5,000"
+                    }
+                }
+            ]
+        },
+        {
+            "exposureName": "Policy Level Coverages",
+            "perils": [
+                {
+                    "name": "Scheduled Personal Property",
+                    "fieldGroups": [
+                        {
+                            "fieldName": "scheduled_personals",
+                            "fieldValues": {
+                                "spp_type": "Jewelry",
+                                "spp_desc": "XYZ",
+                                "spp_value": "0"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Scheduled Personal Property",
+                    "fieldGroups": [
+                        {
+                            "fieldName": "scheduled_personals",
+                            "fieldValues": {
+                                "spp_type": "Guns and Ammunition",
+                                "spp_desc": "XYZ2",
+                                "spp_value": "0"
+                            }
+                        }
+                    ]
+                },
+                
+                {
+                    "name": "Policy Minimum Premium Coverage"
+                }
+            ]
+        }
+    ]
+}
+
